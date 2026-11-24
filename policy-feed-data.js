@@ -1,0 +1,145 @@
+/*!
+ * policy-feed-data.js —— 政策同步插件的离线快照（版本 2026-11-23.0c3ac1，构建于 2026-11-23）
+ * 当 policy-feed.json 无法访问（file:// 或接口故障）时，插件自动回退到此快照，
+ * 并在界面标注「离线快照」，不冒充最新政策。
+ * 本文件由 build-policy-feed.mjs 生成，请勿手工修改。
+ */
+window.POLICY_FEED_SNAPSHOT = {
+  "schema": "tangce.policy.feed/1.0",
+  "version": "2026-11-23.0c3ac1",
+  "updatedAt": "2026-11-23",
+  "region": "武汉市",
+  "disease": "糖尿病",
+  "note": "由 build-policy-feed.mjs 自动生成。前端按 id + rev 做增量比对。",
+  "items": [
+    {
+      "id": "S1",
+      "type": "source",
+      "rev": "488bee0a25",
+      "title": "武汉市医疗保障局关于进一步加强全市基本医疗保险门诊慢特病待遇保障工作的通知",
+      "issuer": "武汉市医疗保障局",
+      "documentNumber": "武医保规〔2023〕2号",
+      "date": "2023-12-29",
+      "url": "https://www.wuhan.gov.cn/gwfbpt/sbm/sylbzj_79517/202412/t20241213_2497384.shtml",
+      "authority": "official",
+      "summary": "全市统一门诊慢特病待遇政策；门诊慢性病支付比例职工在职80%、退休85%，居民70%（大学生90%）。",
+      "fetchedAt": "2026-11-23T11:13:20.099Z"
+    },
+    {
+      "id": "S2",
+      "type": "source",
+      "rev": "1bc4bd7cce",
+      "title": "湖北省基本医疗保险门诊慢特病准入标准",
+      "issuer": "湖北省医疗保障局（鄂州市医保局公开转载）",
+      "documentNumber": "鄂医保发〔2023〕21号 附件2",
+      "date": "2024-05-17",
+      "url": "https://ybj.ezhou.gov.cn/xwzx/tzgg/202405/t20240517_627047.html",
+      "authority": "official_reprint",
+      "summary": "糖尿病准入需规范确诊并符合六类临床表现之一。",
+      "fetchedAt": "2026-11-23T11:13:20.396Z"
+    },
+    {
+      "id": "S3",
+      "type": "source",
+      "rev": "f32b70ad72",
+      "title": "如何办理糖尿病特殊病种申请？",
+      "issuer": "武汉市人民政府门户网站",
+      "documentNumber": "",
+      "date": "2021-12-09",
+      "url": "https://www.wuhan.gov.cn/hdjl/lxgs/202112/t20211209_1869278.shtml",
+      "authority": "official_historical_reply",
+      "summary": "我局工作人员通过电话向信访人核实情况。经了解，信访人主要是咨询糖尿病是否可以办理门诊治疗重症（慢性）疾病的问题。 糖尿病在我市门诊重症（慢性）疾病31个病种内，参保人员申请办理门诊治疗部分重症（慢性）疾病，需提供个人申请（医保科提供）、本人",
+      "fetchedAt": "2026-11-23T11:13:20.469Z"
+    },
+    {
+      "id": "S5",
+      "type": "source",
+      "rev": "4a2127ed79",
+      "title": "武汉市基本医疗保险门诊慢特病相关政策",
+      "issuer": "华中科技大学同济医学院附属协和医院",
+      "documentNumber": "",
+      "date": "2026-11-13",
+      "url": "https://www.whuh.com/info/1053/59286.htm",
+      "authority": "designated_hospital_public_page",
+      "summary": "门诊慢特病待遇是医保部门为减轻部分慢性病、重症疾病且需要长期在门诊接受治疗的参保人员的医疗负担而实行的一项门诊报销政策，符合条件参保人的医疗费用纳入医保统筹基金补助，是普通门诊和住院治疗之外的一项医保政策。一、门诊慢特病待遇认定申报流程（一",
+      "fetchedAt": "2026-11-23T11:13:20.726Z"
+    },
+    {
+      "id": "S7",
+      "type": "source",
+      "rev": "822b463981",
+      "title": "武汉市医保局进一步简化经办流程 门诊慢特病复审线上渠道启用",
+      "issuer": "荆楚网/极目新闻",
+      "documentNumber": "",
+      "date": "2026-10-17",
+      "url": "http://news.cnhubei.com/content/2026-10/17/content_20239558.html",
+      "authority": "official_media",
+      "summary": "武汉市医保局进一步简化经办流程 门诊慢特病复审线上渠道启用---楚天都市报极目新闻讯10月15日，武汉市医疗保障局透露，为落实全省统一门诊慢特病复审政策，进一步简化经办流程，武汉市门诊慢特病复审线上渠道正式启用。对于武汉市12个需要定期复审",
+      "fetchedAt": "2026-11-23T11:13:20.981Z"
+    },
+    {
+      "id": "N1",
+      "type": "notice",
+      "rev": "1",
+      "title": "门诊慢特病复审线上渠道启用（12个病种）",
+      "issuer": "武汉市医疗保障局",
+      "documentNumber": "",
+      "date": "2026-10-15",
+      "url": "https://m.app.dawuhanapp.com/jiankang/p/46956069.html",
+      "authority": "official_media",
+      "tags": [
+        "复审",
+        "线上办理"
+      ],
+      "summary": "12个病种设复审周期，糖尿病为5年；通过“湖北医疗保障”小程序上传病历、检验检查、用药记录即可完成复审申报。"
+    },
+    {
+      "id": "N2",
+      "type": "notice",
+      "rev": "1",
+      "title": "全省统一门诊慢特病病种目录与准入标准执行",
+      "issuer": "湖北省医疗保障局",
+      "documentNumber": "鄂医保发〔2023〕21号",
+      "date": "2024-01-01",
+      "url": "https://ybj.hubei.gov.cn/norms/202312/t20231211_4998947.shtml",
+      "authority": "official",
+      "tags": [
+        "病种目录",
+        "准入标准"
+      ],
+      "summary": "自2024年1月1日起执行全省统一的37类病种目录；糖尿病代码M01600，复审期限5年。"
+    },
+    {
+      "id": "N3",
+      "type": "notice",
+      "rev": "1",
+      "title": "职工医保门诊共济保障机制指导意见",
+      "issuer": "国务院办公厅",
+      "documentNumber": "国办发〔2021〕14号",
+      "date": "2021-04-22",
+      "url": "https://www.gov.cn/zhengce/content/2021-04/22/content_5601280.htm",
+      "authority": "official",
+      "tags": [
+        "国家层面",
+        "门诊共济"
+      ],
+      "summary": "在做好高血压、糖尿病等群众负担较重的门诊慢特病保障基础上，逐步将普通门诊费用纳入统筹基金支付范围。"
+    },
+    {
+      "id": "N4",
+      "type": "notice",
+      "rev": "1",
+      "title": "跨省直接结算门诊慢特病病种由5种扩大至10种",
+      "issuer": "国家医保局办公室、财政部办公厅",
+      "documentNumber": "医保办发〔2024〕19号",
+      "date": "2024-09-13",
+      "url": "https://www.gov.cn/zhengce/202409/content_6974472.htm",
+      "authority": "official",
+      "tags": [
+        "跨省结算",
+        "国家层面"
+      ],
+      "summary": "糖尿病为全国统一的跨省直接结算门诊慢特病病种；2024年12月1日起病种数由5种增至10种。"
+    }
+  ]
+};
